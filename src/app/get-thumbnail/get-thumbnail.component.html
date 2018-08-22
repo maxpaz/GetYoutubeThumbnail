@@ -1,0 +1,21 @@
+<header style="text-align:center;padding:25px;">
+	<h1>Get Thumbnail
+	</h1>
+</header>
+
+<div style="text-align:center">
+	<p>
+		<strong>Como usar:</strong><br><br> 1º Copie e cole a URL do video do Youtube.<br> 2º Pressione o botão "Ir".<br> 3º Seja
+		feliz!!
+		<br>
+	</p>
+	<div style="margin-top:50px">
+		<input [(ngModel)]="URL" placeholder="https://www.youtube.com/watch?v=9psJEKbqhIs" style="min-width: 335px;" />
+		<button (click)="OpenJPG()">Ir</button>
+	</div>
+</div>
+
+<footer style="text-align:center;margin-top:160px;background-color:black;padding:60px">
+	<button (click)="OpenLink()"><img src="../../assets/git.png" style="width: 40px;height: 40px"></button>
+
+</footer>
